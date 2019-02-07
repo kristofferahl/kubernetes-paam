@@ -1,0 +1,7 @@
+.dockerignore
+.editorconfig
+.gitignore
+build
+deploy.yaml
+Dockerfile
+README.md
