@@ -116,7 +116,7 @@ func runPAAM(clientset *kubernetes.Clientset) (*paamResult, error) {
 
 		for _, p := range pods.Items {
 			prefix := fmt.Sprintf("%s-", d.GetName())
-			if strings.HasPrefix(p.GetName(), prefix) {
+			if strings.HasPrefix(p.GetName(), prefix) && p.GetNamespace() == d.GetNamespace() {
 				podResults = append(podResults, pod{
 					Name:     p.GetName(),
 					NodeName: p.Spec.NodeName,
