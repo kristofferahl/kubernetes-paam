@@ -19,7 +19,7 @@ const statusHealthy = "healthy"
 const statusAlert = "alert"
 
 func main() {
-	log.SetHandler(text.New(os.Stderr))
+	log.SetHandler(text.New(os.Stdout))
 
 	configureApp()
 
