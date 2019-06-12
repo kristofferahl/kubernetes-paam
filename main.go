@@ -75,7 +75,7 @@ type paamResult struct {
 }
 
 type deploymenResult struct {
-	Status      string
+	Status      string `json:"status"`
 	Description string `json:"description"`
 	Deployment  string `json:"deployment"`
 	Namespace   string `json:"namespace"`
