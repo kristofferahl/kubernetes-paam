@@ -2,8 +2,8 @@
 
 A Kubernetes Pod Anti-Affinity Monitor exposed over HTTP.
 
-[![Docker Automated build](https://img.shields.io/docker/automated/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
-[![Docker Build Status](https://img.shields.io/docker/build/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/kristofferahl/kubernetes-paam.svg?style=for-the-badge)](https://hub.docker.com/r/kristofferahl/kubernetes-paam/)
 
